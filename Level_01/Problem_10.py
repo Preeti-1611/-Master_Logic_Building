@@ -1,3 +1,4 @@
+# Take a temperature value and print “Cold”, “Warm”, or “Hot” using range conditions.
 
 
 temp = float(input("Enter temperature in °C: "))
