@@ -1,3 +1,6 @@
+# Take a 3-digit number and determine if the middle digit is the largest, smallest, or
+# neither
+
 a = int(input("enter a number"))
 b = int(input("enter a number"))
 c = int(input("enter a number"))
