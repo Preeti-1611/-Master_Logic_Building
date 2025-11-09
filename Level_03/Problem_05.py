@@ -11,3 +11,13 @@ if num % 7==0 or last_digit == 7:
 
 else:
     print("it will not work on the above condition try again")
+
+
+
+
+# num = int(input("Enter a number: "))
+
+# if num % 7 == 0 or num % 10 == 7:
+#     print("Number is either multiple of 7 or ends with 7")
+# else:
+#     print("Number does not satisfy the condition")
