@@ -15,3 +15,9 @@ if list[0] == list[3]:
 else:
     print("not equal")
 
+# num = input("Enter a 4-digit number: ")
+# if num[0] == num[-1]:
+#     print("First and last digits are equal")
+# else:
+#     print("Not equal")
+
