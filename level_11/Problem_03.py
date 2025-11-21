@@ -16,4 +16,4 @@ print("Reversed:", rev)
 if s == rev:
     print("Palindrome")
 else:
- 2   print("Not Palindrome")
+     print("Not Palindrome")
