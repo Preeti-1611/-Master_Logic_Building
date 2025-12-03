@@ -1,5 +1,3 @@
-# check if two strings are anagrams
-
 
 # check if number is prime
 
