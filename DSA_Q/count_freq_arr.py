@@ -1,8 +1,13 @@
-arr = list(map(int, input("Enter numbers: ").split()))
-freq = {}
+#count the fequency of element in an array
+
+arr = [2, 3, 2, 5, 3, 2]
+
+frequency = {}       # empty dictionary to store counts
 
 for num in arr:
-    freq[num] = freq.get(num, 0) + 1
+    if num in frequency:
+        frequency[num] += 1   # increase the count
+    else:
+        frequency[num] = 1    # add number with count 1
 
-for key, value in freq.items():
-    print(key, "→", value)
+print(frequency)
