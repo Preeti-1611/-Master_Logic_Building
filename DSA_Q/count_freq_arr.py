@@ -11,3 +11,19 @@ for num in arr:
         frequency[num] = 1    # add number with count 1
 
 print(frequency)
+
+
+
+
+
+# arr = [2, 5, 2, 7, 2, 5]
+
+# x = 2
+# count = 0
+
+# for i in arr:
+#     if i == x:
+#         count += 1
+
+# print(count)   # Output: 3
+
