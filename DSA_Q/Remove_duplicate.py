@@ -1,14 +1,18 @@
 # remove diplicate elemnts in the array
 
 
-arr= [2,3,4,4,2,5,7,3,3]
+arr = [2, 3, 2, 5, 3, 2]
 
-n_arr = []
+unique = list(set(arr))
+print(unique)
 
-for i in arr:
-    if i in n_arr:
-        i+=1
-    else:
-        n_arr.append(i)
 
-print(n_arr)
+
+arr = [2, 3, 2, 5, 3, 2]
+
+result = []
+for num in arr:
+    if num not in result:   # check if already added
+        result.append(num)
+
+print(result)
