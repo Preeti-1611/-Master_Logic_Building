@@ -1,6 +1,9 @@
-s = "loveleetcode"
+# find the frist non repeating char in th str
 
-for ch in s:
-    if s.count(ch) == 1:
-        print(ch)
-        break
+s1="Hello"
+s2=[]
+for i in s1:
+    if i not in s2:
+         s2.append(i)
+
+print(s2[0])
