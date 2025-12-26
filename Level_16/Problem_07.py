@@ -10,3 +10,5 @@ def fib(n):
 # print first 6 fibonacci numbers
 for i in range(6):
     print(fib(i), end=" ")
+
+
